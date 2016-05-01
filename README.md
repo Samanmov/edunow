@@ -16,7 +16,9 @@ GET    | Search         | http://localhost:3000/search.html |
 
 To create a package.json run:
 
-$ npm init
+```shell
+ npm init
+```
 
 #### npm-install  
 
