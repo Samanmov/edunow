@@ -20,15 +20,15 @@ Markup :  npm init
 
 #### npm-install  
 
-Markup :  npm install
+$ npm install
 
 #### express Installation  
 
-Markup : npm install express
+$ npm install express
 
 #### mongoose Installation 
 
-Markup :  npm install mongoose
+$ npm install mongoose
 
 #### body-parser 
 
@@ -36,4 +36,4 @@ Node.js body parsing middleware
 
 #### body-parser Installation  
 
-Markup :  npm install body-parser
+$ npm install body-parser
