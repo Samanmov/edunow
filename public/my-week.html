@@ -1,8 +1,8 @@
 <div class="layout" ng-repeat="kurs in weekPlan ">
-<h1 class="h12">Veckoplanering (JavaScript-utvecklare)</h1>
+<h1 class="h12"><img src="/images/notes.png" class="notes"> Veckoplanering (JavaScript-utvecklare)</h1>
 		<h2   ng-hide="kurs.editRubrik" ng-click="kurs.editRubrik = !kurs.editRubrik"  > {{ kurs.CourseInfo }}</h2><input class="box6" type="text" ng-show="kurs.editRubrik"type="text" ng-blur="editWeek($index)" type="text" ng-model="kurs.CourseInfo"></input>
 			<side ng-repeat="plan in kurs.Weeks">
-				<p class="week" ng-hide="plan.weekEdit" ng-click="plan.weekEdit = !plan.weekEdit"><img src="/images/days-2.png" class="days"> vecka {{ plan.week }}</p><input ng-show="plan.weekEdit" type="text" ng-blur="edit($parent.$index, $index)"type="text" ng-model="plan.week"></input>
+				<p class="week" ng-hide="plan.weekEdit" ng-click="plan.weekEdit = !plan.weekEdit"><img src="/images/days-2.png" class="days"> vecka {{ plan.week }}</p><input class="box1" ng-show="plan.weekEdit" type="text" ng-blur="edit($parent.$index, $index)"type="text" ng-model="plan.week"></input>
 				<h3 ng-hide="plan.editIntro" ng-click="plan.editIntro =!plan.editIntro"> {{ plan.intro }}</h3><input class="box1" type="text" ng-show="plan.editIntro" ng-blur="edit($parent.$index, $index)" ng-model="plan.intro"></input>
 				<p ng-hide="plan.editText" ng-click="plan.editText = !plan.editText">{{ plan.text }}</p><textarea class="box5" ng-show="plan.editText" ng-blur="edit($parent.$index, $index)" ng-model="plan.text"></textarea>
 				<h3 ng-hide="plan.editQuestion" ng-click="plan.editQuestion = !plan.editQuestion">{{ plan.question}}</h3><input class="box1"  type="text" ng-show="plan.editQuestion" ng-blur="edit($parent.$index, $index)" ng-model="plan.question" ></input>

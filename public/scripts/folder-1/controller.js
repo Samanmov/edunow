@@ -11,7 +11,6 @@ angular.module('weekWeeks').controller('myController', function($scope,weekServi
 			$scope.searchPlan = response;
 			console.log($scope.searchPlan);
 		});
-
 	}
 	// add the new weeks 
 	
@@ -37,13 +36,7 @@ angular.module('weekWeeks').controller('myController', function($scope,weekServi
 		//console.log(removed[0]._id);
 		weekService.weekDelete(removed[0]._id);
 	}
-	$scope.deleteWeeks = function(e){
-		var Weeks = [];
-		var remove = $scope.weekPlan.Weeks.splice(e, 1);
-		weekService.weekDelete(remove[0]._id);
-	}
-
-
+	
 
 	$scope.editWeek = function(i){
 		//console.log($scope.weekPlan[i]);
@@ -107,10 +100,5 @@ angular.module('weekWeeks').service('weekService', function ($http) {
 		});
 	}
 
-	//this.searchWeek = function(week){
-		//console.log("search");
-	//	$http.get('/api/search/'+ week);
-		//'/api/search/'
-	//}
  
 });
