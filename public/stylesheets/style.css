@@ -1,0 +1,275 @@
+body{
+	
+	background: white;
+	color: #444;
+	font: 100%/30px OpenSans;
+	text-shadow: 0 1px 0 #fff;
+}
+li{
+	display: inline;
+	margin-left: 30px;	
+}
+
+nav{
+	
+	background-color:#06B0CD;
+	display: flex;	
+	border-bottom: solid gray 1px;
+	margin-bottom: 50px;
+
+}
+
+ul li{
+	padding-top: 100px;
+}
+.button{
+	width: 4em;  
+	height: 20px;
+	border-left: solid #006665 1px;	
+	border-right: solid white 1px;
+	border-top: solid white 1px;
+}
+
+.hem, .add, .kurs, .bort, .update{
+	text-decoration: none;
+	text-shadow: none;
+	color:#ECEEEB;
+	font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26px;
+
+}
+/*.logo{  
+	width: 23%;
+	
+	float: left;
+	border-left: solid #D3D3D3 1px;
+	padding-left: 50px;
+	border-right: solid #D3D3D3 1px;
+	padding-right: 50px;
+	background-color: white;
+	border-top: solid #D3D3D3 1px;
+	padding-top: 25px;
+	border-bottom: solid #D3D3D3 1px;
+	padding-bottom: 32px;
+	margin-top: 0px;
+	margin-left: -9px;
+}*/
+.head{
+	font-size: 20px;
+	font-family: 'Open Sans';
+
+}
+h3{
+	font-family: 'Open Sans';
+	font-style: italic;
+  font-weight: 700;
+  font-size: 15px;
+}
+.h12{
+	font-size: 22px;
+
+}
+h2{
+   font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+}
+.h1{
+	margin-left: 30px;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+.week{
+	color: #50BFD2;
+
+
+}
+.days{
+	width: 3%;
+	margin-bottom: -5px;
+	color: #50BFD2;
+}
+.imghem{
+	width: 25px;
+	margin-bottom: -5px;
+	margin-right: 5px;
+}
+.imgadd{
+	width: 20px;
+	margin-bottom: -3px;
+	margin-right: 5px;
+}
+.imgtool{
+	width: 20px;
+	margin-bottom: -4px;
+	margin-right: 5px;
+}
+.imgdelete{
+	width: 20px;
+	margin-bottom: -4px;
+	margin-right: 2px;
+}
+.imgupdate{
+	width: 18px;
+	margin-right: 3px;
+	margin-bottom: -4px;
+}
+.logo{
+	width: 15%;
+
+}
+.sok{
+	width: 50px;
+	background-color:#F57025;
+	font-size: 15px; 
+	font-weight: 500;
+	border: none;
+}
+.search{
+	height: 15px;
+}
+.notes{
+	width: 25px;
+	margin-bottom: -3px;
+	color: #50BFD2;
+}
+
+@media (max-width: 600px){
+    nav ul li{
+       
+        float: none;
+        display: block;
+    }
+    form ul li {
+    	float: none;
+        display: block;
+    }
+    .logo{
+        width:50%;
+    }
+.textbox{
+	float: right;
+}
+li:hover{
+	border-bottom: solid #D3D3D3 1px;
+	padding-bottom: 32px;
+
+}
+
+	
+}
+
+.layout{
+	background: #FAFAFA;
+	margin-left: 150px;
+	margin-right: 150px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 100px;
+	padding-top: 20px;
+	margin-bottom: 40px;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+}
+form{
+	max-width: 700px;
+    background: #FAFAFA;
+   	margin-left: 300px;
+   	margin-right: 300px;
+   	padding-left: 30px;
+   	padding-top: 0px;
+   	padding-bottom: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+     
+}
+form ul{
+	
+    
+    list-style:none;
+
+}
+.box1{
+	width: 400px;
+	height: 30px;
+	margin-right: 10px;
+	margin-top: 20px;
+	font-family: 'Open Sans';
+	font-style: italic;
+  	font-weight: 700;
+ 	font-size: 15px;
+}
+.box6{
+	width: 400px;
+	height: 30px;
+	margin-right: 10px;
+	margin-top: 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+.box5{
+	width: 900px;
+	height: 200px;
+	border: 1px solid #ccc;
+	margin-top: 20px;
+	font-size: 15px;
+
+}
+.box{
+	width: 200px;
+	height: 30px;
+	margin-right: 10px;	
+}
+.box2{
+	width: 100px;
+	height: 30px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+::-webkit-input-placeholder {
+	 padding-left: 5px;
+	 font-size: 13px;
+	 padding-top: 5px;
+	}
+
+.box3{
+	width: 540px;
+	height: 200px;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+	margin-right: 70px;
+}
+
+.box4{
+	width: 540px;
+	height: 30px;
+	margin-bottom: 20px;
+
+}
+.addbutton{
+  background: rgb(66, 184, 221);
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  height: 40px;
+  width: 100px;
+  font-size: 15px;
+	
+}
+button{
+  background:  #d33;
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  height: 40px;
+  width: 100px;
+  font-size: 15px;
+}
+
+

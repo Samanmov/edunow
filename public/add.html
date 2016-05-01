@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="stylesheets/style.css">
+</head>
+<body ng-app="weekWeeks">
+	<div ng-controller="myController">
+		<my-tag></my-tag>
+		
+		<form>
+			<ul>
+				<li>
+					<h1 class="h1">Skapa en ny veckoplanering</h1>
+				</li>
+				<li>
+					<input class="box"  placeholder="Kurs namn" ng-model="CourseInfo" type="text"></input>
+					<input placeholder="Vecka" class="box2" ng-model="week" type="text"></input>
+					<input placeholder="Rubrik" class="box" ng-model="intro" type="text"></input>
+				</li>
+				<li>
+					<textarea class="box3" placeholder="Text "  ng-model="text"></textarea>
+				</li>
+				<li>
+					<input class="box4" placeholder="Fråga" type="question"></input>
+				</li>
+				<li>
+					<textarea placeholder="Svar" class="box3" ng-model="answer"></textarea>
+				</li>
+				<li>
+					<input  class="box4"placeholder="Title" ng-model="title" type="title"></input>
+				</li>
+				<li>
+					<textarea  class="box3" placeholder="Definition" ng-model="definition"></textarea>
+				</li>
+				<li>
+					<input type ="submit" class="addbutton" value="Lägg till" ng-click ="addWeek()">
+				</li>
+			</ul>
+
+		</form>
+
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js"></script>
+	<script src="/scripts/app.js" type="text/javascript"></script>
+	<script src="/scripts/folder-1/myDirective.js" type="text/javascript"></script>
+	<script src="/scripts/folder-1/controller.js" type="text/javascript"></script>
+	<script src="add.html" type="text/html"></script>
+</body>
+</html>

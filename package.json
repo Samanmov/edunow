@@ -1,0 +1,22 @@
+{
+  "name": "mean-veckoplanering",
+  "version": "1.0.0",
+  "description": "This is the project of AngularJS Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samanmov/MEAN-veckoplanering.git"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "author": "Saman Movaghar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Samanmov/MEAN-veckoplanering/issues"
+  },
+  "homepage": "https://github.com/Samanmov/MEAN-veckoplanering#readme"
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Car edit table in AngularJs</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="stylesheets/style.css">
+</head>	 
+<body ng-app="weekWeeks">
+	<div ng-controller="myController">
+    <my-tag></my-tag>
+			<div class="layout" ng-repeat="kurs in weekPlan track by $index">
+				<h1 class="h12">Veckoplanering (JavaScript-utvecklare)</h1>
+			 	<h2> {{ kurs.CourseInfo }}</h2><button ng-click="deleteWeek($index)" class="delete" href ="">Delete</button>
+			 	<side ng-repeat="plan in kurs.Weeks track by $index">
+				 		<p class="week">vecka {{ plan.week }}</p><button ng-click="deleteWeeks($index)" class="btn btn-primary btn-lg" >Delete</button>
+				 		<h3> {{ plan.intro }}</h3>
+				 		<p>{{ plan.text }}</p>
+				 		<h3>{{ plan.question}}</h3>
+				 		<p>{{ plan.answer }}</p>
+				 		<h3>{{ plan.title }}</h3>
+				 		<p>{{ plan.definition }}</p>
+				 </side>	 
+			</div>	
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js"></script>
+	<script src="/scripts/app.js" type="text/javascript"></script>
+	<script src="/scripts/folder-1/myDirective.js" type="text/javascript"></script>
+	<script src="/scripts/folder-1/controller.js" type="text/javascript"></script>	
+</body>
+</html>
