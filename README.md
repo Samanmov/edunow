@@ -25,6 +25,11 @@ To create a package.json run:
 ```shell
  npm install
 ```
+#### nodemon reload, automatically
+
+```shell
+sudo npm install -g nodemon
+```
 
 #### express Installation  
 
