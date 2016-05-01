@@ -1,4 +1,4 @@
-# MEAN-edunow
+# MEAN-EduNow
 
 # [![MEAN Logo](http://mean.io/system/assets/img/logos/meanlogo.png)](http://mean.io/) 
 
