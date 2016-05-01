@@ -1,7 +1,8 @@
 'use strict';
 
 var express = require('express');
-var Week = require('../models/week'); // eller vad vår model-fil heter
+var Week = require('../models/week'); //or what name is  our model file 
+
 
 var router = express.Router();
 
@@ -35,7 +36,6 @@ router.post('/', function (req, res) {
 });
 
 // delete the week
-// find the id of weekly planning
 router.delete('/:id', function (req, res){
 	//console.log(req);
 	var id = req.params.id;
@@ -68,7 +68,7 @@ router.put('/:id', function (req, res){
 router.get('/search/:id', function (req, res) {
 	var search  = req.params.id;
 	console.log("hit?");
-	// hämta ifrån mongoose
+	// load  from mongoose
   //var week = mongoose.model('Week', weekSchema);	
   Week.findOne({ CourseInfo: search }, function(err, weeks){
   	if(err){
@@ -79,8 +79,6 @@ router.get('/search/:id', function (req, res) {
   	}
   });
 });
-
-
 
 module.exports = router;
 

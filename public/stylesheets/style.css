@@ -9,13 +9,15 @@ li{
 	display: inline;
 	margin-left: 30px;	
 }
-
 nav{
 	
 	background-color:#06B0CD;
 	display: flex;	
+	margin-top: -10px;
 	border-bottom: solid gray 1px;
 	margin-bottom: 50px;
+	margin-right: -10px;
+	margin-left: -10px;
 
 }
 
@@ -42,22 +44,17 @@ ul li{
 	line-height: 26px;
 
 }
-/*.logo{  
-	width: 23%;
-	
-	float: left;
-	border-left: solid #D3D3D3 1px;
-	padding-left: 50px;
-	border-right: solid #D3D3D3 1px;
-	padding-right: 50px;
-	background-color: white;
-	border-top: solid #D3D3D3 1px;
-	padding-top: 25px;
-	border-bottom: solid #D3D3D3 1px;
-	padding-bottom: 32px;
-	margin-top: 0px;
-	margin-left: -9px;
-}*/
+.hem:hover, .add:hover, .kurs:hover, .bort:hover, .update:hover{
+
+    
+    border-radius:5px;
+    width: 100px;
+    height: 30px;
+    padding: 5px 10px;
+    border: solid 2px #50C0DC;
+    text-align: center;
+}
+
 .head{
 	font-size: 20px;
 	font-family: 'Open Sans';
@@ -70,22 +67,27 @@ h3{
   font-size: 15px;
 }
 .h12{
-	font-size: 22px;
+	font-size: 20px;
 
 }
 h2{
    font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 18px;
+  
 }
 .h1{
 	margin-left: 30px;
 	margin-bottom: 30px;
-	font-size: 20px;
+	font-size: 18px;
+}
+p{
+	color: #5D5A62;
 }
 .week{
 	color: #50BFD2;
+	
 
 
 }
@@ -118,6 +120,10 @@ h2{
 	width: 18px;
 	margin-right: 3px;
 	margin-bottom: -4px;
+}
+.multimedia{
+	width: 25px;
+	margin-bottom: -3px;
 }
 .logo{
 	width: 15%;
@@ -236,8 +242,9 @@ form ul{
 	 padding-left: 5px;
 	 font-size: 13px;
 	 padding-top: 5px;
+	 
 	}
-
+	
 .box3{
 	width: 540px;
 	height: 200px;

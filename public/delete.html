@@ -9,10 +9,10 @@
 	<div ng-controller="myController">
     <my-tag></my-tag>
 			<div class="layout" ng-repeat="kurs in weekPlan track by $index">
-				<h1 class="h12">Veckoplanering (JavaScript-utvecklare)</h1>
-			 	<h2> {{ kurs.CourseInfo }}</h2><button ng-click="deleteWeek($index)" class="delete" href ="">Delete</button>
+				<h1 class="h12"><img src="/images/notes.png" class="notes"> Veckoplanering (JavaScript-utvecklare)</h1>
+			 	<button ng-click="deleteWeek($index)" class="delete" href ="">Delete</button><h2> {{ kurs.CourseInfo }}</h2>
 			 	<side ng-repeat="plan in kurs.Weeks track by $index">
-				 		<p class="week">vecka {{ plan.week }}</p><button ng-click="deleteWeeks($index)" class="btn btn-primary btn-lg" >Delete</button>
+				 		<p class="week"><img src="/images/days-2.png" class="days"> vecka {{ plan.week }}</p>
 				 		<h3> {{ plan.intro }}</h3>
 				 		<p>{{ plan.text }}</p>
 				 		<h3>{{ plan.question}}</h3>

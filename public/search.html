@@ -10,9 +10,8 @@
 	<my-tag></my-tag>
 				<div class="layout"  class="boxtext" ng-model="searchPlan">
 					<h2>{{ searchPlan.CourseInfo }}</h2>
-			   	
 			 	<side ng-repeat="plan in searchPlan.Weeks">
-				 		<p class="week">vecka {{ plan.week }}</p>
+				 		<p class="week"><img src="/images/days-2.png" class="days"> vecka {{ plan.week }}</p>
 				 		<h3> {{ plan.intro }}</h3>
 				 		<p>{{ plan.text }}</p>
 				 		<h3>{{ plan.question}}</h3>
