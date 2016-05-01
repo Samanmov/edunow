@@ -12,28 +12,28 @@ PUT    | Update/Replace | http://localhost:3000/update.html |
 DELETE | Delete         | http://localhost:3000/delete.html |
 GET    | Search         | http://localhost:3000/search.html | 
 
-# Creating a package.json
+ #### Creating a package.json  ####
 
 To create a package.json run:
 
-Markup : > npm init
+Markup :  npm init
 
-# npm-install
+ #### npm-install  ####
 
-Markup : > npm install
+Markup :  npm install
 
-# express Installation
+#### express Installation  ####
 
-Markup : > npm install express
+Markup : npm install express
 
-# mongoose Installation
+#### mongoose Installation  ####
 
-Markup : > npm install mongoose
+Markup :  npm install mongoose
 
-# body-parser 
+ #### body-parser  ####
 
 Node.js body parsing middleware
 
-# body-parser Installation
+#### body-parser Installation  ####
 
-Markup : > npm install body-parser
+Markup :  npm install body-parser
