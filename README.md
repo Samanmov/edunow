@@ -12,7 +12,7 @@ PUT    | Update/Replace | http://localhost:3000/update.html |
 DELETE | Delete         | http://localhost:3000/delete.html |
 GET    | Search         | http://localhost:3000/search.html | 
 
- #### Creating a package.json  ####
+ #### Creating a package.json  
 
 To create a package.json run:
 
