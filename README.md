@@ -20,20 +20,28 @@ $ npm init
 
 #### npm-install  
 
-$ npm install
+```shell
+ npm install
+```
 
 #### express Installation  
 
+```shell
 $ npm install express
+```
 
 #### mongoose Installation 
 
-$ npm install mongoose
+```shell
+ npm install mongoose
+```
 
 #### body-parser 
 
 Node.js body parsing middleware
 
-#### body-parser Installation  
+#### body-parser Installation 
 
+```shell
 $ npm install body-parser
+```
